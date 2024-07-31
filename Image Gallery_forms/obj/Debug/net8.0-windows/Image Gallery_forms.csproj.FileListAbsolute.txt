@@ -1,0 +1,17 @@
+G:\Studies\Image Gallery_forms\Image Gallery_forms\bin\Debug\net8.0-windows\Image Gallery_forms.exe
+G:\Studies\Image Gallery_forms\Image Gallery_forms\bin\Debug\net8.0-windows\Image Gallery_forms.deps.json
+G:\Studies\Image Gallery_forms\Image Gallery_forms\bin\Debug\net8.0-windows\Image Gallery_forms.runtimeconfig.json
+G:\Studies\Image Gallery_forms\Image Gallery_forms\bin\Debug\net8.0-windows\Image Gallery_forms.dll
+G:\Studies\Image Gallery_forms\Image Gallery_forms\bin\Debug\net8.0-windows\Image Gallery_forms.pdb
+G:\Studies\Image Gallery_forms\Image Gallery_forms\obj\Debug\net8.0-windows\Image_Gallery_forms.ImageGallery.resources
+G:\Studies\Image Gallery_forms\Image Gallery_forms\obj\Debug\net8.0-windows\Image Gallery_forms.csproj.GenerateResource.cache
+G:\Studies\Image Gallery_forms\Image Gallery_forms\obj\Debug\net8.0-windows\Image Gallery_forms.GeneratedMSBuildEditorConfig.editorconfig
+G:\Studies\Image Gallery_forms\Image Gallery_forms\obj\Debug\net8.0-windows\Image Gallery_forms.AssemblyInfoInputs.cache
+G:\Studies\Image Gallery_forms\Image Gallery_forms\obj\Debug\net8.0-windows\Image Gallery_forms.AssemblyInfo.cs
+G:\Studies\Image Gallery_forms\Image Gallery_forms\obj\Debug\net8.0-windows\Image Gallery_forms.csproj.CoreCompileInputs.cache
+G:\Studies\Image Gallery_forms\Image Gallery_forms\obj\Debug\net8.0-windows\Image Gallery_forms.dll
+G:\Studies\Image Gallery_forms\Image Gallery_forms\obj\Debug\net8.0-windows\refint\Image Gallery_forms.dll
+G:\Studies\Image Gallery_forms\Image Gallery_forms\obj\Debug\net8.0-windows\Image Gallery_forms.pdb
+G:\Studies\Image Gallery_forms\Image Gallery_forms\obj\Debug\net8.0-windows\Image Gallery_forms.genruntimeconfig.cache
+G:\Studies\Image Gallery_forms\Image Gallery_forms\obj\Debug\net8.0-windows\ref\Image Gallery_forms.dll
+G:\Studies\Image Gallery_forms\Image Gallery_forms\obj\Debug\net8.0-windows\Image_Gallery_forms.Properties.Resources.resources
