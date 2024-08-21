@@ -35,9 +35,10 @@
             pboxImages = new PictureBox();
             btnNext = new Button();
             btnPrevious = new Button();
-            btnRotate = new Button();
-            lstboxImagesInfo = new ListBox();
+            statusStrip1 = new StatusStrip();
+            ImagePathStatus_lbl = new ToolStripStatusLabel();
             ((System.ComponentModel.ISupportInitialize)pboxImages).BeginInit();
+            statusStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // btnLoadImages
@@ -62,84 +63,83 @@
             flowPanel.BorderStyle = BorderStyle.FixedSingle;
             flowPanel.Dock = DockStyle.Bottom;
             flowPanel.FlowDirection = FlowDirection.TopDown;
-            flowPanel.Location = new Point(0, 431);
+            flowPanel.Location = new Point(0, 415);
             flowPanel.Name = "flowPanel";
-            flowPanel.Size = new Size(784, 130);
+            flowPanel.Size = new Size(784, 124);
             flowPanel.TabIndex = 1;
             // 
             // pboxImages
             // 
             pboxImages.BorderStyle = BorderStyle.FixedSingle;
-            pboxImages.Dock = DockStyle.Right;
-            pboxImages.Location = new Point(219, 23);
+            pboxImages.Dock = DockStyle.Fill;
+            pboxImages.Location = new Point(44, 23);
             pboxImages.Name = "pboxImages";
-            pboxImages.Size = new Size(565, 408);
+            pboxImages.Size = new Size(696, 392);
             pboxImages.SizeMode = PictureBoxSizeMode.Zoom;
             pboxImages.TabIndex = 0;
             pboxImages.TabStop = false;
             // 
             // btnNext
             // 
+            btnNext.BackgroundImage = (Image)resources.GetObject("btnNext.BackgroundImage");
+            btnNext.BackgroundImageLayout = ImageLayout.Center;
+            btnNext.Dock = DockStyle.Right;
             btnNext.FlatStyle = FlatStyle.Flat;
-            btnNext.Image = (Image)resources.GetObject("btnNext.Image");
-            btnNext.Location = new Point(163, 76);
+            btnNext.Location = new Point(740, 23);
             btnNext.Name = "btnNext";
-            btnNext.Size = new Size(50, 50);
+            btnNext.Size = new Size(44, 392);
             btnNext.TabIndex = 2;
             btnNext.UseVisualStyleBackColor = true;
             btnNext.Click += btnNext_Click;
             // 
             // btnPrevious
             // 
+            btnPrevious.BackgroundImage = (Image)resources.GetObject("btnPrevious.BackgroundImage");
+            btnPrevious.BackgroundImageLayout = ImageLayout.Center;
+            btnPrevious.Dock = DockStyle.Left;
             btnPrevious.FlatStyle = FlatStyle.Flat;
-            btnPrevious.Image = (Image)resources.GetObject("btnPrevious.Image");
-            btnPrevious.Location = new Point(163, 132);
+            btnPrevious.Location = new Point(0, 23);
             btnPrevious.Name = "btnPrevious";
-            btnPrevious.Size = new Size(50, 50);
+            btnPrevious.Size = new Size(44, 392);
             btnPrevious.TabIndex = 3;
             btnPrevious.UseVisualStyleBackColor = true;
             btnPrevious.Click += btnPrevious_Click;
             // 
-            // btnRotate
+            // statusStrip1
             // 
-            btnRotate.FlatStyle = FlatStyle.Flat;
-            btnRotate.Location = new Point(163, 188);
-            btnRotate.Name = "btnRotate";
-            btnRotate.Size = new Size(50, 50);
-            btnRotate.TabIndex = 4;
-            btnRotate.Text = "Rotate";
-            btnRotate.UseVisualStyleBackColor = true;
+            statusStrip1.Items.AddRange(new ToolStripItem[] { ImagePathStatus_lbl });
+            statusStrip1.Location = new Point(0, 539);
+            statusStrip1.Name = "statusStrip1";
+            statusStrip1.Size = new Size(784, 22);
+            statusStrip1.TabIndex = 4;
+            statusStrip1.Text = "statusStrip1";
             // 
-            // lstboxImagesInfo
+            // ImagePathStatus_lbl
             // 
-            lstboxImagesInfo.BorderStyle = BorderStyle.FixedSingle;
-            lstboxImagesInfo.Dock = DockStyle.Left;
-            lstboxImagesInfo.FormattingEnabled = true;
-            lstboxImagesInfo.ItemHeight = 15;
-            lstboxImagesInfo.Location = new Point(0, 23);
-            lstboxImagesInfo.Name = "lstboxImagesInfo";
-            lstboxImagesInfo.Size = new Size(157, 408);
-            lstboxImagesInfo.TabIndex = 5;
-            lstboxImagesInfo.SelectedIndexChanged += lstboxImagesInfo_SelectedIndexChanged;
+            ImagePathStatus_lbl.Name = "ImagePathStatus_lbl";
+            ImagePathStatus_lbl.Size = new Size(37, 17);
+            ImagePathStatus_lbl.Text = "Path: ";
             // 
             // ImageGallery
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(784, 561);
-            Controls.Add(lstboxImagesInfo);
-            Controls.Add(btnRotate);
-            Controls.Add(btnPrevious);
-            Controls.Add(btnNext);
             Controls.Add(pboxImages);
+            Controls.Add(btnNext);
+            Controls.Add(btnPrevious);
             Controls.Add(flowPanel);
             Controls.Add(btnLoadImages);
+            Controls.Add(statusStrip1);
             Font = new Font("Arial", 9F);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "ImageGallery";
             Text = "Image Gallery";
             ((System.ComponentModel.ISupportInitialize)pboxImages).EndInit();
+            statusStrip1.ResumeLayout(false);
+            statusStrip1.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -150,7 +150,7 @@
         private PictureBox pboxImages;
         private Button btnNext;
         private Button btnPrevious;
-        private Button btnRotate;
-        private ListBox lstboxImagesInfo;
+        private StatusStrip statusStrip1;
+        private ToolStripStatusLabel ImagePathStatus_lbl;
     }
 }

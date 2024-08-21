@@ -5,6 +5,7 @@ namespace Image_Gallery_forms
     public partial class ImageGallery : Form
     {
         private int _currentIndex = -1;
+        private readonly List<string> _imageList = [];
 
         public ImageGallery()
         {
@@ -13,7 +14,7 @@ namespace Image_Gallery_forms
 
         private void BtnLoadImages_Click(object sender, EventArgs e)
         {
-            using (OpenFileDialog ofd = new OpenFileDialog())
+            using (OpenFileDialog ofd = new())
             {
                 ofd.Multiselect = true;
                 ofd.Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp;*.gif";
@@ -28,7 +29,7 @@ namespace Image_Gallery_forms
         private void LoadImages(string[] fileNames)
         {
             flowPanel.Controls.Clear();
-            lstboxImagesInfo.Items.Clear();
+            _imageList.Clear();
             _currentIndex = -1;
 
             foreach (string fileName in fileNames)
@@ -41,50 +42,51 @@ namespace Image_Gallery_forms
                 pb.Padding = new Padding(5);
                 pb.Click += new EventHandler(Pb_Click);
                 flowPanel.Controls.Add(pb);
-                lstboxImagesInfo.Items.Add(fileName);
+                _imageList.Add(fileName);
             }
 
             if (fileNames.Length > 0)
             {
                 _currentIndex = 0;
                 pboxImages.Image = Image.FromFile(fileNames[_currentIndex]);
+                ImagePathStatus_lbl.Text = _imageList[_currentIndex].ToString();
             }
         }
 
         private void Pb_Click(object sender, EventArgs e)
         {
-            PictureBox? pb = sender as PictureBox;
-            if (pb != null)
+            try
             {
-                pboxImages.Image = pb.Image;
+                PictureBox? pb = sender as PictureBox;
+                if (pb != null)
+                {
+                    pboxImages.Image = pb.Image;
+                    ImagePathStatus_lbl.Text = _imageList[_currentIndex].ToString();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
             }
         }
 
         private void btnNext_Click(object sender, EventArgs e)
         {
-            if (lstboxImagesInfo.Items.Count > 0 && _currentIndex < lstboxImagesInfo.Items.Count - 1)
+            if (_imageList.Count > 0 && _currentIndex < _imageList.Count - 1)
             {
                 _currentIndex++;
-                pboxImages.Image = Image.FromFile(lstboxImagesInfo.Items[_currentIndex].ToString());
+                pboxImages.Image = Image.FromFile(_imageList[_currentIndex].ToString());
+                ImagePathStatus_lbl.Text = _imageList[_currentIndex].ToString();
             }
         }
 
         private void btnPrevious_Click(object sender, EventArgs e)
         {
-            if (lstboxImagesInfo.Items.Count > 0 && _currentIndex > 0)
+            if (_imageList.Count > 0 && _currentIndex > 0)
             {
                 _currentIndex--;
-                pboxImages.Image = Image.FromFile(lstboxImagesInfo.Items[_currentIndex].ToString());
-            }
-        }
-
-        private void lstboxImagesInfo_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (lstboxImagesInfo.SelectedIndex != -1)
-            {
-                string selectedFileName = lstboxImagesInfo.SelectedItem.ToString();
-                pboxImages.Image = Image.FromFile(selectedFileName);
-                _currentIndex = lstboxImagesInfo.SelectedIndex;
+                pboxImages.Image = Image.FromFile(_imageList[_currentIndex].ToString());
+                ImagePathStatus_lbl.Text = _imageList[_currentIndex].ToString();
             }
         }
     }

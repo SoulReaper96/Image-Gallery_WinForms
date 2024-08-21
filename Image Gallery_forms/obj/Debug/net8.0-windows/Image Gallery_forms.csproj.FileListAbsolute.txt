@@ -15,3 +15,21 @@ G:\Studies\Image Gallery_forms\Image Gallery_forms\obj\Debug\net8.0-windows\Imag
 G:\Studies\Image Gallery_forms\Image Gallery_forms\obj\Debug\net8.0-windows\Image Gallery_forms.genruntimeconfig.cache
 G:\Studies\Image Gallery_forms\Image Gallery_forms\obj\Debug\net8.0-windows\ref\Image Gallery_forms.dll
 G:\Studies\Image Gallery_forms\Image Gallery_forms\obj\Debug\net8.0-windows\Image_Gallery_forms.Properties.Resources.resources
+G:\GitHub Repo Cloned\SoulReaper96\Image-Gallery_WinForms\Image Gallery_forms\bin\Debug\net8.0-windows\Image Gallery_forms.exe
+G:\GitHub Repo Cloned\SoulReaper96\Image-Gallery_WinForms\Image Gallery_forms\bin\Debug\net8.0-windows\Image Gallery_forms.deps.json
+G:\GitHub Repo Cloned\SoulReaper96\Image-Gallery_WinForms\Image Gallery_forms\bin\Debug\net8.0-windows\Image Gallery_forms.runtimeconfig.json
+G:\GitHub Repo Cloned\SoulReaper96\Image-Gallery_WinForms\Image Gallery_forms\bin\Debug\net8.0-windows\Image Gallery_forms.dll
+G:\GitHub Repo Cloned\SoulReaper96\Image-Gallery_WinForms\Image Gallery_forms\bin\Debug\net8.0-windows\Image Gallery_forms.pdb
+G:\GitHub Repo Cloned\SoulReaper96\Image-Gallery_WinForms\Image Gallery_forms\obj\Debug\net8.0-windows\Image_Gallery_forms.ImageGallery.resources
+G:\GitHub Repo Cloned\SoulReaper96\Image-Gallery_WinForms\Image Gallery_forms\obj\Debug\net8.0-windows\Image_Gallery_forms.Properties.Resources.resources
+G:\GitHub Repo Cloned\SoulReaper96\Image-Gallery_WinForms\Image Gallery_forms\obj\Debug\net8.0-windows\Image Gallery_forms.csproj.GenerateResource.cache
+G:\GitHub Repo Cloned\SoulReaper96\Image-Gallery_WinForms\Image Gallery_forms\obj\Debug\net8.0-windows\Image Gallery_forms.GeneratedMSBuildEditorConfig.editorconfig
+G:\GitHub Repo Cloned\SoulReaper96\Image-Gallery_WinForms\Image Gallery_forms\obj\Debug\net8.0-windows\Image Gallery_forms.AssemblyInfoInputs.cache
+G:\GitHub Repo Cloned\SoulReaper96\Image-Gallery_WinForms\Image Gallery_forms\obj\Debug\net8.0-windows\Image Gallery_forms.AssemblyInfo.cs
+G:\GitHub Repo Cloned\SoulReaper96\Image-Gallery_WinForms\Image Gallery_forms\obj\Debug\net8.0-windows\Image Gallery_forms.csproj.CoreCompileInputs.cache
+G:\GitHub Repo Cloned\SoulReaper96\Image-Gallery_WinForms\Image Gallery_forms\obj\Debug\net8.0-windows\Image Gallery_forms.sourcelink.json
+G:\GitHub Repo Cloned\SoulReaper96\Image-Gallery_WinForms\Image Gallery_forms\obj\Debug\net8.0-windows\Image Gallery_forms.dll
+G:\GitHub Repo Cloned\SoulReaper96\Image-Gallery_WinForms\Image Gallery_forms\obj\Debug\net8.0-windows\refint\Image Gallery_forms.dll
+G:\GitHub Repo Cloned\SoulReaper96\Image-Gallery_WinForms\Image Gallery_forms\obj\Debug\net8.0-windows\Image Gallery_forms.pdb
+G:\GitHub Repo Cloned\SoulReaper96\Image-Gallery_WinForms\Image Gallery_forms\obj\Debug\net8.0-windows\Image Gallery_forms.genruntimeconfig.cache
+G:\GitHub Repo Cloned\SoulReaper96\Image-Gallery_WinForms\Image Gallery_forms\obj\Debug\net8.0-windows\ref\Image Gallery_forms.dll
