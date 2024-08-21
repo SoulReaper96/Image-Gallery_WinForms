@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Image_Gallery_forms
-build_property.ProjectDir = G:\Studies\Image Gallery_forms\Image Gallery_forms\
+build_property.ProjectDir = G:\GitHub Repo Cloned\SoulReaper96\Image-Gallery_WinForms\Image Gallery_forms\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

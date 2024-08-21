@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Image Gallery_forms")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ba856e261ef0fdb227fe39a889bf21d1e6b36da")]
 [assembly: System.Reflection.AssemblyProductAttribute("Image Gallery_forms")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Image Gallery_forms")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
